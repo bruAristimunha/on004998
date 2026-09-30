@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Exploring the electrophysiology of Parkinson's disease - magnetoencephalography combined with deep brain recordings from the subthalamic nucleus. ",
-  "description": "This dataset comprises simultaneous magnetoencephalography (MEG) and subthalamic nucleus (STN) local field potential (LFP) recordings from externalized deep brain stimulation (DBS) patients with Parkinson's disease. Recordings were performed both with and without dopaminergic medication, across resting-state and movement conditions (forearm extension hold and self-paced fist-clenching). The study aims to elucidate the neurophysiology of basal ganglia-cortex loops and how they are modulated by movement and medication status.",
-  "methods_description": "Data were collected via simultaneous MEG and STN LFP recordings from externalized DBS patients under two medication states (MedOn/MedOff). Recording sessions included resting-state periods and movement tasks: static forearm extension (hold) and self-paced fist-clenching (move), each preceded by 5 minutes of rest, with pauses during the movement segments. Some patients underwent resting-state recordings only.",
+  "description": "This dataset contains simultaneous magnetoencephalography (MEG) and subthalamic nucleus local field potential (STN LFP) recordings from externalized deep brain stimulation (DBS) patients with Parkinson's disease. Recordings were acquired with and without dopaminergic medication during rest, static forearm extension (hold), and self-paced fist-clenching (move). The project aimed to characterize basal ganglia-cortex loop neurophysiology and how it is modulated by movement and medication.",
+  "methods_description": "Externalized DBS patients underwent simultaneous MEG and STN LFP recordings in medication ON and OFF states. Each movement condition consisted of 5 minutes of rest followed by either static forearm extension (hold) or self-paced fist-clenching (move), with pauses during the movement parts. Some patients were recorded in resting state only.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,14 +17,14 @@
   },
   "keywords": [
     {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
       "term": "Deep Brain Stimulation",
@@ -40,7 +40,7 @@
       "term": "local field potentials"
     },
     {
-      "term": "basal ganglia-cortex loops"
+      "term": "MEG"
     },
     {
       "term": "dopaminergic medication"
@@ -92,7 +92,7 @@
     "meg"
   ],
   "sizes": [
-    "173.7 GB (186 files)"
+    "162 GB (186 files)"
   ],
   "formats": [
     ".fif",
